@@ -1,0 +1,70 @@
+Azure Certs
+---------------
+funda		: AZ900
+Admin		: AZ104 (AZ900)
+Dev  		: AZ204 (AZ900)
+Architect	: AZ305 (AZ900 + AZ104)
+Azure DevOps	: AZ400 (AZ900 + AZ104 + AZ204)
+Security	: AZ500
+
+For accessing cloud from on-prem
+---------------------------------
+- Web browser
+- CLI application
+- PowerShell
+- REST API
+- ARM Templates
+- Cloud Shell
+- Terraform
+
+
+SSPR - Self Service Password Reset
+App service environment (ASE) -> 45Min
+
+
+Public cloud:
+	- accessed by everyone.
+	- AWS, Azure GCP, VMWare, Rackspace....
+Private cloud: 
+	- accessible by only LTIMindtree associates.
+	- Microsoft System Center Suite, Openstack (Linux)
+Hybrid cloud:
+	- Public + private cloud
+Gove cloud:
+	- government EMP cloud
+
+Azure portal
+-------------
+Old portal
+- classic portal / ASM (Azure Service Manager) portal 
+- no use of resource group
+- no parallel execution of resources
+- XML format
+
+Ques: ASM portal VS ARM portal
+Ques: Windows AD vs Azure AD (Microsoft IntraID)
+
+New portal
+- ARM (Azure Resource Manager) portal
+- Resource Group, parallel execution, ...
+- JSON format
+- URL: portal.azure.com
+- requires a subscription
+	- free trial (30 days, $200)
+	- Pay as you go
+	- Enterprise (EA) subscription
+	- MSDN platform subscription
+	- Visual Studio subscription
+	- students subscription ($100)
+	
+RBAC
+- Role Based Access Control
+- types:
+	- built-in: already present within the portal
+	- custom: we need to create it. (max of 4000 are allowed)
+			- is created using JSON file.
+
+Resource Group
+- u can create unlimited RGs
+- you cannot create nested RGs
+- 
